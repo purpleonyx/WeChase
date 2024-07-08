@@ -1,5 +1,54 @@
 <!DOCTYPE html><html lang="RUS">
     <head>
-        
+        <title>WeChase</title>
     </head>
+
+    <body>
+        <div class="achievements">
+            <div class="imageBox">
+                <img src="images/frame1.svg" class="year_box" id="frame_box_1">
+                <img src="images/frame1_hover.svg" class="frame_box_hover">
+            </div>
+
+            <div class="imageBox">
+                <img src="images/frame2.svg" class="year_box" id="frame_box_2">
+                <img src="images/frame2_hover.svg" class="frame_box_hover">
+            </div>
+
+            <div class="imageBox">
+                <img src="images/frame3.svg" class="year_box" id="frame_box_3">
+                <img src="images/frame3_hover.svg" class="frame_box_hover">
+            </div>
+        </div>
+
+        <style>
+            .achievements {
+                display: flex;
+                justify-content: center;
+            }
+
+            .imageBox {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                position: relative;
+                background-color: white;
+            }
+
+            .year_box {
+                width: 400px;
+            }
+
+            .frame_box_hover {
+                position: absolute;
+                object-fit: cover;
+                opacity: 0;
+                transition: opacity .2s;
+            }
+
+            .frame_box_hover:hover {
+                opacity: 100;
+            }
+        </style>
+    </body>
 </html>
