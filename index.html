@@ -21,10 +21,24 @@
             </div>
         </div>
 
+        <div id="chase_anim">
+            <script src="animation/lottie.js"></script>
+            <script>
+                var animation = bodymovin.loadAnimation({
+                    container: document.getElementById('chase_anim'),
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    path: 'animation/chase_ufo.json'
+                })
+            </script>
+        </div>
+
         <style>
             .achievements {
                 display: flex;
                 justify-content: center;
+                gap: 15px;
             }
 
             .imageBox {
@@ -32,22 +46,35 @@
                 flex-direction: column;
                 align-items: start;
                 position: relative;
-                background-color: white;
             }
 
             .year_box {
-                width: 400px;
+                width: 350px;
+                border-radius: 24px;
+                -webkit-box-shadow:0px 33px 70px 0px rgba(62,66,66,0.25);
+                -moz-box-shadow: 0px 33px 70px 0px rgba(62,66,66,0.25);
+                box-shadow: 0px 33px 70px 0px rgba(62,66,66,0.25);
+                z-index: 2;
             }
 
             .frame_box_hover {
+                width: 350px;
                 position: absolute;
                 object-fit: cover;
                 opacity: 0;
                 transition: opacity .2s;
+                z-index: 2;
             }
 
             .frame_box_hover:hover {
                 opacity: 100;
+            }
+
+            #chase_anim {
+                position: fixed;
+                top: 0;
+                right: 0;
+                z-index: 1;
             }
         </style>
     </body>
