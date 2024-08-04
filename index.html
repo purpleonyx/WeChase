@@ -41,6 +41,17 @@
             </video>
         </div>
 
+        <div class="cases_box">
+            <!-- <img src="images/Frame 427318947_text.svg" id="cases_box_text"> -->
+            <img src="images/Frame 427318947.svg" id="cases_boxes_fl">
+        </div>
+
+        <div class="anim_lenta">
+            <video autoplay muted>
+                <source src="animation/3.webm" type="video/webm" id="anim_lenta_3">
+            </video>
+        </div>
+
         <style>
             .achievements {
                 display: flex;
@@ -88,6 +99,32 @@
                 top: 0;
                 right: 0;
                 z-index: 1;
+            }
+
+            .cases_box {
+                position: relative;
+                z-index: 2;
+                width: fit-content;
+                margin: 0px;
+            }
+
+            #cases_boxes_fl {
+                width: 100%;
+                margin: 0px;
+                -webkit-filter: drop-shadow(0px 5px 15px #2222222a);
+                filter: drop-shadow(0px 5px 15px #2222222a);
+                backdrop-filter: blur(10px);
+            }
+
+            .anim_lenta {
+                width: fit-content;
+                position: relative;
+                z-index: 1;
+            }
+
+            #anim_lenta_3 {
+                height: 100%;
+                margin: 0px;
             }
         </style>
     </body>
