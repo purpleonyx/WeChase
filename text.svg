@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 657.87 232.91">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #015f45;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        font-family: Montserrat-Light, Montserrat;
+        font-size: 36px;
+        font-variation-settings: 'wght' 300;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-4" transform="translate(34.57 30.6)"><tspan x="0" y="0">Бесплатное снятие наличных</tspan><tspan x="0" y="62">Скид</tspan><tspan class="cls-1" x="93.71" y="62">к</tspan><tspan class="cls-5" x="113.79" y="62">а до </tspan><tspan class="cls-1" x="198.83" y="62">35</tspan><tspan x="238.28" y="62">% в </tspan><tspan class="cls-9" x="307.87" y="62">A</tspan><tspan x="332.35" y="62">vis</tspan><tspan x="0" y="124">Безопасно</tspan><tspan class="cls-6" x="201.53" y="124">с</tspan><tspan class="cls-8" x="221.04" y="124">ть и защита пла</tspan><tspan class="cls-2" x="511.59" y="124">т</tspan><tspan class="cls-6" x="527.11" y="124">е</tspan><tspan class="cls-7" x="548.49" y="124">ж</tspan><tspan x="576.82" y="124">ей</tspan><tspan x="0" y="186">Защита по</tspan><tspan class="cls-7" x="193.79" y="186">к</tspan><tspan x="213.51" y="186">упок 3D Secu</tspan><tspan class="cls-6" x="456.37" y="186">r</tspan><tspan x="470.01" y="186">e</tspan></text>
+      <rect class="cls-3" x="2.1" y="13.14" width="16.13" height="16.13" rx="3" ry="3" transform="translate(17.97 -.98) rotate(45)"/>
+      <rect class="cls-3" x="2.26" y="75.45" width="15.81" height="15.81" rx="3" ry="3" transform="translate(61.92 17.23) rotate(45)"/>
+      <rect class="cls-3" x="2.26" y="137.37" width="15.81" height="15.81" rx="3" ry="3" transform="translate(105.71 35.36) rotate(45)"/>
+      <rect class="cls-3" x="2.26" y="199.3" width="15.81" height="15.81" rx="3" ry="3" transform="translate(149.49 53.5) rotate(45)"/>
+    </g>
+  </g>
+</svg>
